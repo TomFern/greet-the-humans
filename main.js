@@ -2,4 +2,4 @@
 
 
 // greet the humans
-console.log("hi human");
+console.log("hey human");
