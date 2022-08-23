@@ -2,6 +2,7 @@
 
 let os = require('os');
 
+// figure out which part of the day is now
 function greeting() {
     let hours = new Date().getHours();
     if(hours < 12) return "good morning";
