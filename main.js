@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+let os = require('os');
 
 // greet the humans
-console.log("hey human");
+let user = os.userInfo().username;
+console.log("hey " + user);

@@ -1,6 +1,6 @@
 {
   "name": "greet-the-humans",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Say hi to the humans",
   "main": "main.js",
   "scripts": {
