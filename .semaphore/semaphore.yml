@@ -32,8 +32,3 @@ blocks:
         - name: E2E test
           commands:
             - sleep 12
-promotions:
-  - name: Release
-    pipeline_file: pipeline_2.yml
-    auto_promote:
-      when: branch = 'master' AND result = 'passed'
